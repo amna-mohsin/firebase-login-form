@@ -2,9 +2,9 @@
 # Firebase Login Form
 
 A simple and responsive dark-themed login form built using **HTML, CSS, JavaScript, and Firebase Firestore**.
-The project includes custom validation, success/error alerts, and real-time Firebase database support.
+The project includes custom validation, success/error alerts, and real-time Firebase database support:
 
-:Live demo available on [Netlify](https://firebase-form-a.netlify.app/).
+Live demo available on [Netlify](https://firebase-form-a.netlify.app/).
 
 ---
 
