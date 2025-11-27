@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Login</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Message Box -->
+    <div id="message-box">
+        <p id="message-text"></p>
+        <button onclick="document.getElementById('message-box').style.display='none'">OK</button>
+    </div>
+
+    <!-- Login Form -->
+    <div class="login-container">
+        <h1>USER LOGIN</h1>
+
+        <form id="login-form">
+            <div class="form-group">
+                <input type="text" id="username" placeholder="Username" required>
+            </div>
+
+            <div class="form-group">
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
