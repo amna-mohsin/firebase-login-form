@@ -1,12 +1,13 @@
 // --- Firebase Config ---
+//--- Replace with your firebase config ---
 const firebaseConfig = {
-  apiKey: "AIzaSyC8l0UO87DhocoLZ5higOWF4jcP2qywKAc",
-  authDomain: "saylani-form1-1ec57.firebaseapp.com",
-  databaseURL: "https://saylani-form1-1ec57-default-rtdb.firebaseio.com",
-  projectId: "saylani-form1-1ec57",
-  storageBucket: "saylani-form1-1ec57.firebasestorage.app",
-  messagingSenderId: "446823413586",
-  appId: "1:446823413586:web:16490ac4e3fb5274f7ac8b"
+  apiKey: " ",
+  authDomain: " ",
+  databaseURL: " ",
+  projectId: " ",
+  storageBucket: " ",
+  messagingSenderId: " ",
+  appId: " "
 };
 
 // Initialize Firebase
